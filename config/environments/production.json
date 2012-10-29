@@ -1,0 +1,6 @@
+{
+    "port": 80
+  , "mongoURI": "mongodb://brenden:hackadoodledoo@staff.mongohq.com:10065/hackadoodledoo"
+  , "twitterCallback": "http://hackadoodledoo.nodejitsu.com/callback"
+  , "domain": ".hackadoodledoo.nodejitsu.com"
+}

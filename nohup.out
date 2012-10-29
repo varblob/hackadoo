@@ -1,0 +1,29 @@
+mongod --help for help and startup options
+Mon Jul  2 04:07:21 
+Mon Jul  2 04:07:21 warning: 32-bit servers don't have journaling enabled by default. Please use --journal if you want durability.
+Mon Jul  2 04:07:21 
+Mon Jul  2 04:07:22 [initandlisten] MongoDB starting : pid=1921 port=27017 dbpath=/data/db/ 32-bit host=lucid32
+Mon Jul  2 04:07:22 [initandlisten] 
+Mon Jul  2 04:07:22 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Mon Jul  2 04:07:22 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Mon Jul  2 04:07:22 [initandlisten] **       with --journal, the limit is lower
+Mon Jul  2 04:07:22 [initandlisten] 
+Mon Jul  2 04:07:22 [initandlisten] db version v2.0.6, pdfile version 4.5
+Mon Jul  2 04:07:22 [initandlisten] git version: e1c0cbc25863f6356aa4e31375add7bb49fb05bc
+Mon Jul  2 04:07:22 [initandlisten] build info: Linux domU-12-31-39-01-70-B4 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_41
+Mon Jul  2 04:07:22 [initandlisten] options: {}
+Mon Jul  2 04:07:22 [initandlisten] exception in initAndListen: 10309 Unable to create/open lock file: /data/db/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+Mon Jul  2 04:07:22 dbexit: 
+Mon Jul  2 04:07:22 [initandlisten] shutdown: going to close listening sockets...
+Mon Jul  2 04:07:22 [initandlisten] shutdown: going to flush diaglog...
+Mon Jul  2 04:07:22 [initandlisten] shutdown: going to close sockets...
+Mon Jul  2 04:07:22 [initandlisten] shutdown: waiting for fs preallocator...
+Mon Jul  2 04:07:22 [initandlisten] shutdown: closing all files...
+Mon Jul  2 04:07:22 [initandlisten] closeAllFiles() finished
+Mon Jul  2 04:07:22 [initandlisten] shutdown: removing fs lock...
+Mon Jul  2 04:07:22 [initandlisten] couldn't remove fs lock errno:9 Bad file descriptor
+Mon Jul  2 04:07:22 dbexit: really exiting now
+nohup: redi-server: No such file or directory
+nohup: redi-server: No such file or directory
+nohup: redi-server: No such file or directory
+nohup: redi-server: No such file or directory
